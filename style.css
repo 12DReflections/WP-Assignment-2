@@ -110,7 +110,60 @@ color: magenta;
 	margin-left:auto;
 	margin-right: auto;
 }
-	
+.movie_page_content {
+	width:50%; 
+	margin-left:auto;
+	margin-right: auto;
+}
+@media screen and (max-width:900px){
+	.main_page_content{
+		text-align:center;
+	}
+	.movie_images{
+		text-align:center;
+		float:none;
+	}
+	.movie_page_content{
+		text-align:center;
+	}
+
+}
+@media screen and (min-width:3500px){
+	        .content_table{
+			font-family: "Arial Black", Gadget, sans-serif;
+                border:#ccccff 1px solid;
+                border-color: white;
+				width:40%;
+				height:80%;
+
+            }
+		.pay_button:disabled {
+	background-color:red;
+	color:black;
+	border-style:dotted;
+}
+.pay_button:hover {
+	background-color:black;
+	color:black;
+	border-style:dotted;
+}
+
+.contact_button button{
+	width: 80%;
+	height: 70%;
+}
+}
+@media (max-width:4000px) and (min-width:1500px){
+	.main_page_content{
+		width:29.3%;
+	}
+	.content_table td{
+                width: 20%;
+                height: 30%;
+
+            }
+
+}
 .content{
 	display: block;
 	width: 800px;
@@ -149,8 +202,8 @@ color: magenta;
 }
 	
 .main_div {
-	margin-left:70px;
-	padding-left:300px;
+	margin-left:1%;
+	padding-left:1%;
 }		
 
 .nav_a a:link, .nav_a a:visited {
@@ -163,14 +216,15 @@ color: magenta;
 	color:white;
 	text-decoration: none;
 	height:20px;
-	padding-left:10px;
-	padding-right:10px;
-	margin:8px;
+	padding-left:1%;
+	padding-right:2%;
+	margin:0%;
 	margin-left:30px;
 	margin-right:10px;
 	height:25px;
 	border:0px;
-	padding:5px;
+	padding-bottom:0.55%;
+	padding-top:0.55%
 }
 .nav_a a:hover {
 	background-color:white;
@@ -179,10 +233,9 @@ color: magenta;
 .nav_a {
 	text-align:center;
 	background-color:black;
-	height:40px;
+	height:10%;
 	text-align:center;
-	padding:5px;
-	padding-bottom:2px;
+	padding:0.55%;
 }
 .contact_p span {
 	color:red;
@@ -190,7 +243,7 @@ color: magenta;
 .contact_p {
 	font-family:comic sans MS;
 	margin-bottom:0px;
-	margin-top:40px;
+	margin-top:10%;
 	font-size:20px;
 }
 .header_style img{
@@ -201,7 +254,7 @@ color: magenta;
 	text-align:center;
 }
 .contact_body div {
-	margin-left:30px;
+	margin-left:30%;
 }
 .footer_style span {
 	font-family:"Arial Black", Gadget, sans-serif;
@@ -235,10 +288,10 @@ color: magenta;
 	border-color:black;
 	border:2px;
 	background-color:#bbf6c2;
-	width:600px;
+	width:60%;
 	margin-top:0px;
 	margin-bottom:0px;
-	height: 300px;
+	height: 100%;
 	border:2px solid;
 	font-family: "Arial Black", Gadget, sans-serif;
 	font-size: 17px;
@@ -278,11 +331,11 @@ color: magenta;
 	background-color:#bbf6c2;
 	width:400px;
 	margin-top:0px;
-	margin-bottom:10px;
-	height: 34px;
+	margin-bottom:2%;
+	height: 10%;
 	border:2px solid;
 	color:gray;
-	padding:5px;
+	padding:1%;
 	border-color:black;
 }
 .contact_input:focus
@@ -317,10 +370,10 @@ color: magenta;
 	border-bottom-left-radius:0.5em;
 	border-bottom-right-radius:0.5em;
 	box-shadow:0px 1px 2px rgba(0,0,0,0.2);
-   width: 300px;
-   height: 34px;
+   width: 79%;
+   height: 20%;
    overflow: hidden;
-   margin-top:0px;
+   margin-top:auto;
    text-align:center;
    border-color:black;
 }
@@ -392,9 +445,9 @@ line-height: 100%;
 	color:red;
 	border:0px;
 	background-color: #EEE8AA;
-	margin-bottom:20px;
+	margin-bottom:5%;
 	margin-left:0 auto;
-	width:200px;
+	width:50%;
 	font-style:italic
 	border-top-right-radius:0.5em;
 	border-bottom-right-radius:0.5em;
@@ -499,12 +552,12 @@ line-height: 100%;
 	border-bottom-left-radius:0.5em;
 	border-bottom-right-radius:0.5em;
 	box-shadow:0px 1px 2px rgba(0,0,0,0.2);
-   width: 50px;
-   height: 30px;
    overflow: hidden;
    margin-top:0px;
    text-align:center;
    border-color:black;
+   padding:auto;
+   margin:auto;
 			}
             .content_table td{
 			                background-color: #A9A9A9;
@@ -532,17 +585,18 @@ line-height: 100%;
 				padding:0px;
 			}
 			.content_big_td {
-				width:110px;
+				width:80%;
 			}
 			.content_td_sel{
-				width:300px;
-			
-				padding:200px;
+				width:60%;
+				height:50%
+				padding:auto;
 			}
 			.content_td_sel select{
-				width:150px;
-				height:30px;
-				margin:0px;
+				width:80%;
+				height:70%;
+				margin:auto;
+				padding:auto;
 			}
 			.payment_title {
 				background-color:white;
@@ -567,4 +621,8 @@ line-height: 100%;
 			.movie_booking_opt span:active{
 				background-color:white;
 				color:black;
+			}
+			.contact_div{
+				padding-left:auto;
+				margin:auto;
 			}
