@@ -115,7 +115,7 @@ color: magenta;
 	margin-left:auto;
 	margin-right: auto;
 }
-@media screen and (max-width:900px){
+@media (min-width:300px) and (max-width:500px){
 	.main_page_content{
 		text-align:center;
 	}
@@ -126,9 +126,22 @@ color: magenta;
 	.movie_page_content{
 		text-align:center;
 	}
+	.contact_input{
+		height:40%;
+		width:60%;
+		font-size:100%;
+	}
+}
+@media (){
 
 }
-@media screen and (min-width:3500px){
+
+@media (min-width:3850px){
+			.contact_input{
+				height:200px;
+				width:30%;
+				font-size:100px;
+			}
 	        .content_table{
 			font-family: "Arial Black", Gadget, sans-serif;
                 border:#ccccff 1px solid;
@@ -137,33 +150,31 @@ color: magenta;
 				height:80%;
 
             }
-		.pay_button:disabled {
-	background-color:red;
-	color:black;
-	border-style:dotted;
+		.contact_body {
+			background-color:green;
+		}
 }
-.pay_button:hover {
-	background-color:black;
-	color:black;
-	border-style:dotted;
+@media (max-width:3850px) and (min-width:3500px){
+				.contact_input{
+				height:150px;
+				width:50%;
+				font-size:80px;
+			}
+			.contact_body {
+				background-color:blue;
+			}
 }
-
-.contact_button button{
-	width: 80%;
-	height: 70%;
-}
-}
-@media (max-width:4000px) and (min-width:1500px){
-	.main_page_content{
-		width:29.3%;
+@media (max-width:3500px) and (min-width:1500px){
+		.contact_input {
+		height:70px;
+		width:40%;
+		font-size:40px;
 	}
-	.content_table td{
-                width: 20%;
-                height: 30%;
-
-            }
-
+	.contact_body {
+			background-color:red;
+		}
 }
+
 .content{
 	display: block;
 	width: 800px;
@@ -200,10 +211,15 @@ color: magenta;
 	display: inline-block;
 	
 }
-	
+
+.contact_main{
+	width:80%;
+	height:100%;
+	text-align:center;
+}
 .main_div {
-	margin-left:1%;
-	padding-left:1%;
+	width:80%;
+	height:100%;
 }		
 
 .nav_a a:link, .nav_a a:visited {
@@ -243,8 +259,9 @@ color: magenta;
 .contact_p {
 	font-family:comic sans MS;
 	margin-bottom:0px;
-	margin-top:10%;
+	margin-top:5%;
 	font-size:20px;
+	text-align:left;
 }
 .header_style img{
 	width:70%;
@@ -254,7 +271,9 @@ color: magenta;
 	text-align:center;
 }
 .contact_body div {
-	margin-left:30%;
+	text-align:center;
+	height:100%;
+	width:100%;
 }
 .footer_style span {
 	font-family:"Arial Black", Gadget, sans-serif;
@@ -322,21 +341,24 @@ color: magenta;
 	border-bottom-right-radius:0.5em;
 	box-shadow:0px 1px 2px rgba(0,0,0,0.2);
 	font-family: "Arial Black", Gadget, sans-serif;
-	font-size: 17px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;
 	text-decoration: none;
 	border-color:#A9A9A9;
-	background-color:#bbf6c2;
-	width:400px;
 	margin-top:0px;
-	margin-bottom:2%;
-	height: 10%;
+	margin-bottom:10px;
 	border:2px solid;
 	color:gray;
-	padding:1%;
+	float:left;
 	border-color:black;
+	background-color:#bbf6c2;
+	padding-left:2%;
+}
+
+contact_div_normal{
+	height:100%;
+	width:100%;
 }
 .contact_input:focus
 {
@@ -357,7 +379,7 @@ color: magenta;
 
 .contact_select {
 	font-family: "Arial Black", Gadget, sans-serif;
-	font-size: 14px;
+	font-size: 20%;
 	font-style: normal;
 	background-color:#bbf6c2;
 	font-variant: normal;
@@ -370,8 +392,6 @@ color: magenta;
 	border-bottom-left-radius:0.5em;
 	border-bottom-right-radius:0.5em;
 	box-shadow:0px 1px 2px rgba(0,0,0,0.2);
-   width: 79%;
-   height: 20%;
    overflow: hidden;
    margin-top:auto;
    text-align:center;
@@ -438,7 +458,6 @@ color: magenta;
 	border-style:dotted;
 }
 .contact_span {
-	text-align: center;
 line-height: 100%;
 	visibility:hidden;
 	font-family:"Times New Roman",Serif;
@@ -446,12 +465,16 @@ line-height: 100%;
 	border:0px;
 	background-color: #EEE8AA;
 	margin-bottom:5%;
-	margin-left:0 auto;
+	margin-left:auto;
 	width:50%;
 	font-style:italic
 	border-top-right-radius:0.5em;
 	border-bottom-right-radius:0.5em;
 	box-shadow:0px 1px 2px rgba(0,0,0,0.2);
+	font-size:20%;
+	padding:auto;
+	height:10%;
+	text-align:left;
 }
 
 .timeIndent{
@@ -625,4 +648,5 @@ line-height: 100%;
 			.contact_div{
 				padding-left:auto;
 				margin:auto;
+				height:500px;
 			}
