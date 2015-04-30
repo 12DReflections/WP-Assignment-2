@@ -153,7 +153,10 @@ color: magenta;
 	height:90%;
 	width:25%;
 	padding:3%;
+		padding-top:0.55%;
+	padding-bottom:0.56%;
 	margin-bottom:0px;
+
 }
 	.main_page_content{
 		text-align:center;
@@ -224,6 +227,9 @@ color: magenta;
 .nav_a a:link, .nav_a a:visited {
 	font-size:90%;
 	display:block;
+	margin:auto;
+	padding-top:0.55%;
+	padding-bottom:0.55%;
 }
 	.contact_input{width:70%;
 		height:40%;
@@ -319,7 +325,9 @@ color: magenta;
 		height:100%;
 	width:25%;
 		padding:3%;
-	margin:2%
+			padding-top:0.55%;
+	padding-bottom:0.56%;
+	margin:2%;
 }
 	.movie_images{
 		width:210px;
@@ -385,8 +393,11 @@ color: magenta;
 	font-size:90%;
 		height:100%;
 	width:25%;
-		padding:4%;
-	margin:4%
+		padding-left:4%;
+		padding-right:4%;
+		padding-top:0.552%;
+		padding-bottom:0.559%;
+	margin:4%;
 }
 	.movie_images{
 		width:300px;
@@ -435,6 +446,8 @@ color: magenta;
 		height:100%;
 	width:25%;
 	padding:5%;
+		padding-top:0.55%;
+	padding-bottom:0.56%;
 	margin:5%
 }
 			.movie_images{
@@ -497,6 +510,8 @@ color: magenta;
 		height:100%;
 	width:25%;
 	padding:5%;
+		padding-top:0.55%;
+	padding-bottom:0.56%;
 	margin:5%
 }
 				.movie_images{
@@ -536,13 +551,6 @@ color: magenta;
 .index_images{
 	  width:300px;
 	  height:200px;
-}
-.nav_a a:link, .nav_a a:visited {
-	font-size:90%;
-		height:100%;
-	width:25%;
-	padding:3%;
-	margin:2%
 }
 		.main_page_content{
 		width:29.3%;
@@ -607,10 +615,14 @@ color: magenta;
 }		
 .nav_a ol{
 	margin:auto;
+	width:100%;
+	padding:0px;
+	border:0px;
 }
 .nav_a li{
 	display:inline;
 	width:100%;
+	border:0px;
 }
 .nav_a a:link, .nav_a a:visited {
 	background-color:black;
@@ -622,8 +634,6 @@ color: magenta;
 	color:white;
 	text-decoration: none;
 	border:0px;
-	padding-bottom:0.55%;
-	padding-top:0.55%
 }
 .nav_a a:hover {
 	background-color:white;
@@ -634,8 +644,8 @@ color: magenta;
 	background-color:black;
 	height:20%;
 	text-align:center;
-	padding:0.55%;
 	width:100%;
+	padding:0.55%;
 }
 .contact_p span {
 	color:red;
