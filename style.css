@@ -74,10 +74,8 @@ color: magenta;
 
  .movie_images
  {
-  width:300px;
   border-radius:5px;
   float: right;
-  height: 270px;
   border-left: 15px;
   border-bottom: 10px;
  }
@@ -116,12 +114,21 @@ color: magenta;
 	margin-right: auto;
 }
 @media(max-width:1000px) and (min-width:600px){
+.nav_a a:link, .nav_a a:visited {
+	font-size:95%;
+	height:90%;
+	width:25%;
+	padding:3%;
+	margin-bottom:0px;
+}
 	.main_page_content{
 		text-align:center;
 	}
 	.movie_images{
 		text-align:center;
 		float:none;
+		width:150px;
+		height:135px;
 	}
 	.movie_page_content{
 		text-align:center;
@@ -137,7 +144,7 @@ color: magenta;
 		padding:1%;
 	}
 	.contact_textarea{
-		width:100%;
+		width:60%;
 		font-size:1px;
 		padding:1%;
 		height:70px;
@@ -147,24 +154,28 @@ color: magenta;
 		font-size:100%;
 	}
 	.contact_button button{
-		width:15%;
-		height:10%;
+		width:11%;
+		height:30px;
 	}
 }
 @media(max-width:600px){
+.nav_a a:link, .nav_a a:visited {
+	font-size:90%;
+	display:block;
+}
 	.contact_input{width:70%;
 		height:40%;
 		font-size:10px;
 		padding:1%;
 	}
 	.contact_select{
-		width:100%;
+		width:80%;
 		height:40%;
 		padding:1%;
 		font-size:100%
 	}
 	.contact_textarea{
-		width:100%;
+		width:70%;
 		font-size:1px;
 		padding:1%;
 		height:60px;
@@ -175,12 +186,85 @@ color: magenta;
 
 	}
 	.contact_button button{
-		width:15%;
-		height:10%;
+		width:17%;
+		height:20px;
+		font-size:10px;
+
+	}
+	.movie_images{
+		width:90px;
+		height:81px;
+		float:none;
 	}
 }
-
+@media (min-width:1000px) and (max-width:2000px){
+	.contact_button button{
+		height:40px;
+		width:11%;
+	}
+	.contact_textarea{
+		width:60%;
+		font-size:3px;
+		padding:1%;
+		height:50px;
+		line-height:7px;
+	}
+.nav_a a:link, .nav_a a:visited {
+	font-size:90%;
+		height:100%;
+	width:25%;
+		padding:3%;
+	margin:2%
+}
+	.movie_images{
+		width:210px;
+		height:179px;
+		float:none;
+	}
+}
+@media (min-width:2000px) and (max-width:3500px){
+	.contact_textarea{
+		width:70%;
+		font-size:5px;
+		padding:1%;
+		height:120px;
+		line-height:7px;
+	}
+		.contact_button button{
+		height:70px;
+		width:11%;
+	}
+.nav_a a:link, .nav_a a:visited {
+	font-size:90%;
+		height:100%;
+	width:25%;
+		padding:4%;
+	margin:4%
+}
+	.movie_images{
+		width:300px;
+		height:270px;
+	}
+}
 @media (min-width:3900px){
+	.contact_textarea{
+		width:60%;
+		font-size:10px;
+		padding:1%;
+		height:400px;
+		line-height:7px;
+	}
+.nav_a a:link, .nav_a a:visited {
+	font-size:90%;
+		height:100%;
+	width:25%;
+	padding:5%;
+	margin:5%
+}
+			.movie_images{
+				width:300px;
+				height:270px;
+			}
 			.contact_input{
 				height:130px;
 				width:35%;
@@ -214,11 +298,26 @@ color: magenta;
 		width:30%;
 		font-size:120px;
 	}
-		.contact_body {
-			background-color:green;
-		}
 }
 @media (max-width:3900px) and (min-width:3500px){
+	.contact_textarea{
+		width:60%;
+		font-size:5px;
+		padding:1%;
+		height:500px;
+		line-height:7px;
+	}
+.nav_a a:link, .nav_a a:visited {
+	font-size:90%;
+		height:100%;
+	width:25%;
+	padding:5%;
+	margin:5%
+}
+				.movie_images{
+					width:300px;
+					height:270px;
+				}
 				.contact_input{
 				height:150px;
 				width:50%;
@@ -245,16 +344,20 @@ color: magenta;
 			}
 }
 @media (max-width:3500px) and (min-width:1000px){
+.nav_a a:link, .nav_a a:visited {
+	font-size:90%;
+		height:100%;
+	width:25%;
+	padding:3%;
+	margin:2%
+}
 		.contact_input {
 		height:35px;
 		width:45%;
 		font-size:35px;
 		padding:1%;
 	}
-	.contact_button button{
-		height:100px;
-		width:5%;
-	}
+
 	.contact_select{
 		height:75px;
 		width:52%;
@@ -274,9 +377,6 @@ color: magenta;
 		font-size:40px;
 	}
 
-	.contact_body {
-			background-color:red;
-		}
 }
 
 .content{
@@ -323,26 +423,27 @@ color: magenta;
 }
 .main_div {
 	width:30%;
-	height:100%;
+	height:100%
 	text-align:center;
 }		
-
+.nav_a ui{
+	width:100%;
+	height:100%;
+	margin:auto;
+}
+.nav_a li{
+	display:inline;
+	width:100%;
+}
 .nav_a a:link, .nav_a a:visited {
 	background-color:black;
 	font-family: "Arial Black", Gadget, sans-serif;
-	font-size: 26px;
+	
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;
 	color:white;
 	text-decoration: none;
-	height:20px;
-	padding-left:1%;
-	padding-right:2%;
-	margin:0%;
-	margin-left:30px;
-	margin-right:10px;
-	height:25px;
 	border:0px;
 	padding-bottom:0.55%;
 	padding-top:0.55%
@@ -354,7 +455,7 @@ color: magenta;
 .nav_a {
 	text-align:center;
 	background-color:black;
-	height:10%;
+	height:20%;
 	text-align:center;
 	padding:0.55%;
 }
@@ -495,7 +596,6 @@ contact_div_normal{
 }
 .contact_button{
 	text-align:left;
-	background-color:blue;
 	width:70%;
 	height:100px;	
 	padding-left:30%;
@@ -623,7 +723,7 @@ line-height: 100%;
 	border-style:dotted;
 }
 .mov_des{
-font-family:  Palatino Linotype, Verdana;
+font-family:  Palatino Linotype, Verdana;2015/4/30
 	font-size:16px;
 }
 .contact_span {
