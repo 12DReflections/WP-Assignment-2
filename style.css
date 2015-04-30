@@ -82,10 +82,10 @@ color: magenta;
 
   .index_images
  {
-  width:300px;
+
   border-radius:5px;
   float: right;
-  height: 200px;
+
   border-left: 15px;
   border-bottom: 10px;
   padding-left: 20px;
@@ -113,7 +113,41 @@ color: magenta;
 	margin-left:auto;
 	margin-right: auto;
 }
-@media(max-width:1000px) and (min-width:600px){
+@media (max-width:1000px) and (min-width:600px){
+.pay_button{
+	font-size:8px;
+	width:12%;
+	height:30px;
+}
+.hoverTable{
+	font-size:70%;
+}
+.footer_style span {
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:8px;
+	margin:15px;
+	padding:10px;
+	color:white;
+}
+.footer_style img {
+	border:0; height:10px;
+}
+.footer_style strong {
+	font-family:comic sans MS,Gadget, sans-serif;
+	font-size:12px;
+	color:#00FF7F;
+	
+}
+.footer_style {
+	text-align:center;
+	background-color:black;
+	padding:8px;
+}
+.index_images{
+	  width:120px;
+	  height:80px;
+	  float:none;
+}
 .nav_a a:link, .nav_a a:visited {
 	font-size:95%;
 	height:90%;
@@ -130,22 +164,20 @@ color: magenta;
 		width:150px;
 		height:135px;
 	}
-	.movie_page_content{
-		text-align:center;
-	}
 	.contact_input{
 		width:47%;
-		font-size:100%;
+		font-size:10px;
 		padding:1%;
 	}
 	.contact_select{
-		width:47%;
-		font-size:100%;
+		width:50%;
+		font-size:10px;
 		padding:1%;
+		height:25px
 	}
 	.contact_textarea{
-		width:60%;
-		font-size:1px;
+		width:50%;
+		font-size:10px;
 		padding:1%;
 		height:70px;
 		line-height:5px;
@@ -154,11 +186,41 @@ color: magenta;
 		font-size:100%;
 	}
 	.contact_button button{
-		width:11%;
+		width:15%;
 		height:30px;
+		font-size:7px;
 	}
 }
-@media(max-width:600px){
+@media (max-width:600px){
+.hoverTable{
+	font-size:70%;
+}
+.footer_style span {
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:6px;
+	margin:15px;
+	padding:1%;
+	color:white;
+}
+.footer_style img {
+	border:0; height:10px;
+}
+.footer_style strong {
+	font-family:comic sans MS,Gadget, sans-serif;
+	font-size:10px;
+	color:#00FF7F;
+	
+}
+.footer_style {
+	text-align:center;
+	background-color:black;
+	padding:8px;
+}
+.index_images{
+	  width:90px;
+	  height:60px;
+	  float:none;
+}
 .nav_a a:link, .nav_a a:visited {
 	font-size:90%;
 	display:block;
@@ -172,11 +234,11 @@ color: magenta;
 		width:80%;
 		height:40%;
 		padding:1%;
-		font-size:100%
+		font-size:10px;
 	}
 	.contact_textarea{
 		width:70%;
-		font-size:1px;
+		font-size:5px;
 		padding:1%;
 		height:60px;
 		line-height:5px;
@@ -186,9 +248,9 @@ color: magenta;
 
 	}
 	.contact_button button{
-		width:17%;
-		height:20px;
-		font-size:10px;
+		width:25%;
+		height:15px;
+		font-size:7px;
 
 	}
 	.movie_images{
@@ -198,17 +260,60 @@ color: magenta;
 	}
 }
 @media (min-width:1000px) and (max-width:2000px){
+.pay_button{
+	font-size:17px;
+	width:14%;
+	height:50px;
+}
+.footer_style span {
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:12px;
+	margin:20px;
+	padding:15px;
+	color:white;
+}
+.footer_style img {
+	border:0; height:25px;
+}
+.footer_style strong {
+	font-family:comic sans MS,Gadget, sans-serif;
+	font-size:14px;
+	color:#00FF7F;
+	
+}
+.footer_style {
+	text-align:center;
+	background-color:black;
+	padding:1%;
+}
+.index_images{
+	  width:300px;
+	  height:200px;
+}
 	.contact_button button{
 		height:40px;
-		width:11%;
+		width:12%;
+		font-size:10px;
 	}
 	.contact_textarea{
-		width:60%;
-		font-size:3px;
+		width:40%;
+		font-size: 16px;
 		padding:1%;
-		height:50px;
+		height:100px;
 		line-height:7px;
 	}
+				.contact_input{
+				height:20px;
+				width:40%;
+				font-size:17px;
+				padding:1%;
+				}
+				.contact_select{
+				height:30px;
+				width:40%;
+				padding:1%;
+				font-size:15px;
+				}
 .nav_a a:link, .nav_a a:visited {
 	font-size:90%;
 		height:100%;
@@ -223,14 +328,56 @@ color: magenta;
 	}
 }
 @media (min-width:2000px) and (max-width:3500px){
+.pay_button{
+	font-size:22px;
+	width:12%;
+	height:70px;
+}
+.footer_style span {
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:14px;
+	margin:20px;
+	padding:15px;
+	color:white;
+}
+.footer_style img {
+	border:0; height:35px;
+}
+.footer_style strong {
+	font-family:comic sans MS,Gadget, sans-serif;
+	font-size:16px;
+	color:#00FF7F;
+	
+}
+.footer_style {
+	text-align:center;
+	background-color:black;
+	padding:12px;
+}
+.index_images{
+	  width:300px;
+	  height:200px;
+}
 	.contact_textarea{
-		width:70%;
-		font-size:5px;
+		width:40%;
+		font-size:23px;
 		padding:1%;
-		height:120px;
+		height:200px;
 		line-height:7px;
 	}
-		.contact_button button{
+				.contact_input{
+				height:40px;
+				width:40%;
+				font-size:25px;
+				padding:1%;
+				}
+				.contact_select{
+				height:43px;
+				width:40%;
+				padding:1%;
+				font-size:25px;
+				}
+				.contact_button button{
 		height:70px;
 		width:11%;
 	}
@@ -247,12 +394,41 @@ color: magenta;
 	}
 }
 @media (min-width:3900px){
+.pay_button{
+	font-size:25px;
+	width:11%;
+	height:140px;
+}
+.footer_style span {
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:17px;
+	margin:35px;
+	padding:25px;
+	color:white;
+}
+.footer_style img {
+	border:0; height:60px;
+}
+.footer_style strong {
+	font-family:comic sans MS,Gadget, sans-serif;
+	font-size:24px;
+	color:#00FF7F;
+	
+}
+.footer_style {
+	text-align:center;
+	background-color:black;
+	padding:20px;
+}
+.index_images{
+	  width:450px;
+	  height:300px;
+}
 	.contact_textarea{
-		width:60%;
-		font-size:10px;
+		width:40%;
+		font-size:70px;
 		padding:1%;
 		height:400px;
-		line-height:7px;
 	}
 .nav_a a:link, .nav_a a:visited {
 	font-size:90%;
@@ -262,19 +438,25 @@ color: magenta;
 	margin:5%
 }
 			.movie_images{
-				width:300px;
-				height:270px;
+				width:540px;
+				height:486px;
 			}
 			.contact_input{
-				height:130px;
-				width:35%;
-				font-size:100px;
+				height:90px;
+				width:40%;
+				font-size:90px;
 				padding:1%;
+			}
+			.contact_div{
+				width:70%;
+				height:100%;
 			}
 			.contact_select{
 				height:130px;
 				width:35%;
 				padding:1%;
+				font-size:80px;
+				
 			}
 	        .content_table{
 			font-family: "Arial Black", Gadget, sans-serif;
@@ -300,13 +482,16 @@ color: magenta;
 	}
 }
 @media (max-width:3900px) and (min-width:3500px){
-	.contact_textarea{
-		width:60%;
-		font-size:5px;
-		padding:1%;
-		height:500px;
-		line-height:7px;
-	}
+.pay_button{
+	font-size:25px;
+	width:12%;
+	height:100px;
+}
+.index_images{
+	  width:450px;
+	  height:300px;
+}
+
 .nav_a a:link, .nav_a a:visited {
 	font-size:90%;
 		height:100%;
@@ -318,20 +503,24 @@ color: magenta;
 					width:300px;
 					height:270px;
 				}
+					.contact_textarea{
+		width:40%;
+		font-size:40px;
+		padding:1%;
+		height:300px;
+		line-height:7px;
+	}
 				.contact_input{
-				height:150px;
-				width:50%;
-				font-size:80px;
+				height:70px;
+				width:40%;
+				font-size:40px;
 				padding:1%;
 				}
 				.contact_select{
-				height:150px;
-				width:50%;
+				height:90px;
+				width:40%;
 				padding:1%;
-				font-size:80px;
-				}
-				contact_body{
-					background-color:yellow;
+				font-size:40px;
 				}
 	.content_table td{
                 width: 20%;
@@ -339,11 +528,15 @@ color: magenta;
 
             }
 			.contact_button button{
-				height:200px;
+				height:100px;
 				width:10%;
 			}
 }
 @media (max-width:3500px) and (min-width:1000px){
+.index_images{
+	  width:300px;
+	  height:200px;
+}
 .nav_a a:link, .nav_a a:visited {
 	font-size:90%;
 		height:100%;
@@ -351,19 +544,6 @@ color: magenta;
 	padding:3%;
 	margin:2%
 }
-		.contact_input {
-		height:35px;
-		width:45%;
-		font-size:35px;
-		padding:1%;
-	}
-
-	.contact_select{
-		height:75px;
-		width:52%;
-		font-size:35px;
-		padding:1%;
-	}
 		.main_page_content{
 		width:29.3%;
 	}
@@ -410,25 +590,22 @@ color: magenta;
 	width: 45%;
 	display:inline-block;
 	height: 60px;
-	width; 60px;
+	width: 60px;
 	vertical-align: top;
 	display: inline-block;
 	
 }
 
 .contact_main{
-	width:90%;
+	width:100%;
 	height:100%;
 	text-align:center;
 }
 .main_div {
-	width:30%;
-	height:100%
+
 	text-align:center;
 }		
 .nav_a ui{
-	width:100%;
-	height:100%;
 	margin:auto;
 }
 .nav_a li{
@@ -458,6 +635,7 @@ color: magenta;
 	height:20%;
 	text-align:center;
 	padding:0.55%;
+	width:100%;
 }
 .contact_p span {
 	color:red;
@@ -484,25 +662,23 @@ color: magenta;
 }
 .footer_style span {
 	font-family:"Arial Black", Gadget, sans-serif;
-	font-size:14px;
-	margin:30px;
-	padding:20px;
+	margin:0.5%;
+	padding:0.5px;
 	color:white;
 }
 .footer_style img {
-	border:0; height:31px;
+	border:0;
 }
 .footer_style strong {
 	font-family:comic sans MS,Gadget, sans-serif;
-	font-size:20px;
 	color:#00FF7F;
 	
 }
 .footer_style {
 	text-align:center;
-	margin-top:80px;
+	margin-top:5%;
 	background-color:black;
-	padding:8px;
+	padding:1%;
 }
 
 .contact_textarea {
@@ -554,11 +730,6 @@ color: magenta;
 	border-color:black;
 	background-color:#bbf6c2;
 	padding-left:2%;
-}
-
-contact_div_normal{
-	height:100%;
-	width:100%;
 }
 .contact_input:focus
 {
@@ -656,7 +827,7 @@ line-height: 100%;
 	background-color: #EEE8AA;
 	margin-left:auto;
 	width:50%;
-	font-style:italic
+	font-style:italic;
 	border-top-right-radius:0.5em;
 	border-bottom-right-radius:0.5em;
 	box-shadow:0px 1px 2px rgba(0,0,0,0.2);
@@ -669,12 +840,9 @@ line-height: 100%;
 	margin-left: 15px;
 }
 			     .pay_button{
-	width: 80px;
-	height: 50px;
 	text-align: center;
 	line-height: 100%;
 	font-family: "Arial Black", Gadget, sans-serif;
-	font-size: 20px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;
@@ -723,7 +891,7 @@ line-height: 100%;
 	border-style:dotted;
 }
 .mov_des{
-font-family:  Palatino Linotype, Verdana;2015/4/30
+font-family:  Palatino Linotype, Verdana;
 	font-size:16px;
 }
 .contact_span {
@@ -737,7 +905,7 @@ line-height: 100%;
 	margin-bottom:20px;
 	margin-left:0 auto;
 	width:200px;
-	font-style:italic
+	font-style:italic;
 	border-top-right-radius:0.5em;
 	border-bottom-right-radius:0.5em;
 	box-shadow:0px 1px 2px rgba(0,0,0,0.2);
@@ -767,7 +935,6 @@ line-height: 100%;
    margin-top:0px;
    text-align:center;
    border-color:black;
-   padding:auto;
    margin:auto;
 			}
             .content_table td{
@@ -800,14 +967,12 @@ line-height: 100%;
 			}
 			.content_td_sel{
 				width:60%;
-				height:50%
-				padding:auto;
+				height:50%;
 			}
 			.content_td_sel select{
 				width:80%;
 				height:70%;
 				margin:auto;
-				padding:auto;
 			}
 			.payment_title {
 				background-color:white;
@@ -835,7 +1000,4 @@ line-height: 100%;
 			}
 			.contact_div{
 				padding-left:30%;
-				margin:auto;
-				
-				
 			}
