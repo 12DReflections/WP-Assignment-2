@@ -605,7 +605,7 @@ color: magenta;
 
 	text-align:center;
 }		
-.nav_a ui{
+.nav_a ol{
 	margin:auto;
 }
 .nav_a li{
@@ -801,8 +801,6 @@ color: magenta;
 	background-image:none;
 	background-attachment:scroll;
 	background-repeat:repeat;
-	background-position-x:0%;
-	background-position-y:0%;
 	background-size:auto;
 	background-origin:padding-box;
 	background-clip:padding-box;
@@ -850,7 +848,6 @@ line-height: 100%;
 	vertical-align: text-bottom;
 	display: inline-block;
 	cursor: pointer;
-	zoom:1;
 	outline-width:medium;
 	outline-color:inherit;
 	font-size-adjust:none;
@@ -873,8 +870,6 @@ line-height: 100%;
 	background-image:none;
 	background-attachment:scroll;
 	background-repeat:repeat;
-	background-position-x:0%;
-	background-position-y:0%;
 	background-size:auto;
 	background-origin:padding-box;
 	background-clip:padding-box;
@@ -903,7 +898,7 @@ line-height: 100%;
 	border:0px;
 	background-color: #EEE8AA;
 	margin-bottom:20px;
-	margin-left:0 auto;
+	margin-left:auto;
 	width:200px;
 	font-style:italic;
 	border-top-right-radius:0.5em;
